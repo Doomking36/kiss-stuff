@@ -17,8 +17,8 @@ git clone https://github.com/LukeSmithxyz/dmenu.git
 git clone https://github.com/LukeSmithxyz/dwm.git
 git clone https://github.com/LukeSmithxyz/st.git
 
-rm -rf /home/dk/kiss-setup/dmenu/dmenu.c
-mv /home/dk/kiss-stuff/dmenu.c /home/dk/kiss-setup/dmenu/
+rm -rf /home/dk/kiss-stuff/dmenu/dmenu.c
+mv /home/dk/kiss-stuff/dmenu.c /home/dk/kiss-stuff/dmenu/
 #cd dmenu
 #echo 123 | doas make PREFIX=/usr DESTDIR="$1" clean install
 #cd ..
