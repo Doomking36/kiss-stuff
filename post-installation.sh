@@ -9,7 +9,7 @@ yes | kiss b python llvm cmake xauth xinit xorg-server xf86-input-libinput xf86-
 #echo 123 | doas addgroup dk input
 #echo 123 | doas addgroup dk tty
 
-git clone https://github.com/Doomking36/packages
+git clone https://github.com/Doomking36/kiss-stuff
 mkdir wallpapers
 mv kiss-stuff/saturn-rings.jpg /home/dk/wallpapers
 mv kiss-stuff/xinitrc /home/dk
