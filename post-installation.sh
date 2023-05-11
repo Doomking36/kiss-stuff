@@ -1,7 +1,5 @@
 #!/bin/sh
 
-cd /home/dk
-
 yes | kiss b python llvm cmake xauth xinit xorg-server xf86-input-libinput xf86-video-intel xf86-video-vesa xf86-video-fbdev xcompmgr feh neofetch pfetch htop
 
 #echo 123 | doas addgroup dk video
@@ -11,16 +9,16 @@ yes | kiss b python llvm cmake xauth xinit xorg-server xf86-input-libinput xf86-
 
 git clone https://github.com/Doomking36/kiss-stuff
 mkdir wallpapers
-mv kiss-stuff/saturn-rings.jpg /home/dk/wallpapers
-mv kiss-stuff/xinitrc /home/dk
-mv xinitrc ~/.xinitrc
+mv /home/dk/kiss-stuff/saturn-rings.jpg /home/dk/wallpapers/
+mv /home/dk/kiss-stuff/xinitrc /home/dk
+mv /home/dk/xinitrc ~/.xinitrc
 
 git clone https://github.com/LukeSmithxyz/dmenu.git
 git clone https://github.com/LukeSmithxyz/dwm.git
 git clone https://github.com/LukeSmithxyz/st.git
 
-rm -rf /home/dk/dmenu/dmenu.c
-mv kiss-stuff/dmenu.c /home/dk/dmenu/
+rm -rf /home/dk/kiss-setup/dmenu/dmenu.c
+mv /home/dk/kiss-stuff/dmenu.c /home/dk/kiss-setup/dmenu/
 #cd dmenu
 #echo 123 | doas make PREFIX=/usr DESTDIR="$1" clean install
 #cd ..
