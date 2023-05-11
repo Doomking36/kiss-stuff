@@ -1,5 +1,7 @@
 #!/bin/sh
 
+cd /home/dk
+
 yes | kiss b python llvm cmake xauth xinit xorg-server xf86-input-libinput xf86-video-intel xf86-video-vesa xf86-video-fbdev xcompmgr feh neofetch pfetch htop
 
 #echo 123 | doas addgroup dk video
